@@ -1,0 +1,18 @@
+/* Chamando através do nome da class*/
+.form-horizontal {
+  background-color:red;
+  width:50%;
+} 
+
+.form-group{
+  color:white;
+}
+
+/* Chamando pela propria tag, se tu quiser generalizar para todos os elementos como mesma tag*/
+legend{
+  color:purple;
+}
+/* Chamando pelo id, dependendo do projeto possam ser que existe elementos bem espeficicos, mas sempre é mais usual chamar por classe, ids são mais usados para javascript*/
+#singlebutton {
+  color:yellow;
+}
